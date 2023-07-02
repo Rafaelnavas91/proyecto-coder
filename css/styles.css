@@ -1,0 +1,241 @@
+h1 {
+    color: lightblue;
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+h2 {
+    color: lightblue;
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-size: 30px;
+    min-width: 200px;
+    max-width: 600px;
+
+}
+
+.Musica {
+    color: bisque;
+    background-color: lightblue;
+}
+
+#Social {
+    color: bisque;
+    font-size: 35px;
+    background-color: lightblue;
+}
+
+.Consulta {
+    color: lightblue;
+    font-size: 35px;
+    background-color: bisque;
+}
+
+#textomusica {
+    background-color: lightblue;
+    font-size: 20px;
+    width: 650px;
+    height: 220px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: solid;
+    border-width: 20px;
+    border-color: bisque;
+    margin-top: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.surgimiento {
+    color: bisque;
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*.taylor {
+    background-image: url(../img/taylor\ swift.jpg);
+  
+    background-position: 50px 60px;
+    background-repeat: no-repeat;
+    background-size: 350px 150px;
+    background-color: grey;
+    height: 250px;
+
+
+}*/
+
+.historia {
+    background-color: lightblue;
+    color: black;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: 200px;
+    max-width: 600px;
+    overflow: auto;
+    border-style: solid;
+    border-width: 20px;
+    border-color: bisque;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.internacional {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightblue;
+    color: black;
+}
+
+.abel {
+    background-image: url(../img/theweeknd.jpg);
+    background-position: 150PX 20PX;
+    background-repeat: no-repeat;
+    background-size: 350PX 200PX;
+    background-color: lightblue;
+    height: 250px;
+}
+
+.canciones {
+    background-color: bisque;
+    color: lightblue;
+    min-width: 200px;
+    max-width: 600px;
+    height: 250px;
+    font-size: 30px;
+}
+
+.Temas {
+    background-color: bisque;
+    color: lightblue;
+    font-size: 30px;
+}
+
+.Variacion {
+
+    /*background-color: lightblue;*/
+    color: bisque;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+header {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+}
+
+.taylor {
+    /*display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;*/
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 30px;
+
+}
+
+.variedad {
+    background-color: lightblue;
+    color: bisque;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.swift {
+    background-color: gray;
+    background-image: url(../img/taylor\ swift.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 95px 40px;
+}
+
+.bad {
+    background-color: wheat;
+    background-image: url(../img/badbunny.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 95px 40px;
+}
+
+.Temas a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.escuchadas {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 2fr 1fr 1fr;
+column-gap: 30px;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.cruel {
+    background-color: pink;
+    background-image: url(../img/cruelsummer.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 5px 40px;
+
+    
+
+
+
+}
+
+.where {
+    background-color: blue;
+    background-image: url(../img/where.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 5px 40px;
+
+}
+.Creepin{
+    background-color: gray;
+    background-image: url(../img/creepin.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 5px 40px;
+}
+.die{
+   
+    background-color: blue;
+    
+}
+.cielo{
+    background-color: lightblue;
+}
