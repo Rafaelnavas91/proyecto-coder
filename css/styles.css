@@ -36,7 +36,7 @@ h2 {
 #textomusica {
     background-color: lightblue;
     font-size: 20px;
-    width: 650px;
+    width: 649px;
     height: 220px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-style: solid;
@@ -157,7 +157,7 @@ header {
     align-items: center;*/
     display: grid;
     grid-template-rows: 200px;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns:  2fr 1fr 1fr;
     column-gap: 30px;
 
 }
@@ -186,6 +186,8 @@ header {
     background-repeat: no-repeat;
     background-size: 200px 150px;
     background-position: 95px 40px;
+    border: solid;
+    border-color: aqua;
 }
 
 .Temas a {
@@ -197,10 +199,11 @@ header {
 .escuchadas {
     display: grid;
     grid-template-rows: 200px;
-    grid-template-columns: 2fr 1fr 1fr;
-column-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
     justify-content: space-between;
     row-gap: 30px;
+
 }
 
 .cruel {
@@ -210,7 +213,7 @@ column-gap: 30px;
     background-size: 200px 150px;
     background-position: 5px 40px;
 
-    
+
 
 
 
@@ -224,18 +227,28 @@ column-gap: 30px;
     background-position: 5px 40px;
 
 }
-.Creepin{
+
+.Creepin {
     background-color: gray;
     background-image: url(../img/creepin.jpg);
     background-repeat: no-repeat;
     background-size: 200px 150px;
     background-position: 5px 40px;
 }
-.die{
-   
-    background-color: blue;
-    
+
+.die {
+
+    background-color: rgb(139, 24, 24);
+    background-image: url(../img/theweeknd.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 5px 40px;
 }
-.cielo{
+
+.cielo {
     background-color: lightblue;
+    background-image: url(../img/cielo.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 5px 40px;
 }
