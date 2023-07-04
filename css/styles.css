@@ -157,7 +157,7 @@ header {
     align-items: center;*/
     display: grid;
     grid-template-rows: 200px;
-    grid-template-columns:  2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     column-gap: 30px;
 
 }
@@ -186,11 +186,10 @@ header {
     background-repeat: no-repeat;
     background-size: 200px 150px;
     background-position: 95px 40px;
-    border: solid;
-    border-color: aqua;
+
 }
 
-.Temas a {
+.Temas {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -204,7 +203,19 @@ header {
     justify-content: space-between;
     row-gap: 30px;
 
+
 }
+
+
+.artistas {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
 
 .cruel {
     background-color: pink;
@@ -251,4 +262,45 @@ header {
     background-repeat: no-repeat;
     background-size: 200px 150px;
     background-position: 5px 40px;
+    
+}
+
+.registro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.alguna {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eladio {
+    background-color: yellow;
+    background-image: url(../img/eladio.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 5px 40px;
+    width: 45%;
+}
+
+.lana {
+    background-color: green;
+    background-image: url(../img/lana.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 5px 40px;
+   width: 45%;
+}
+
+.rauw {
+    background-color: rgb(114, 36, 36);
+    background-image: url(../img/rauw.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 5px 40px;
+    width: 45%;
 }
