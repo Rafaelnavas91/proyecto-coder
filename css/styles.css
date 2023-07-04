@@ -1,5 +1,5 @@
 h1 {
-    
+
     background-color: bisque;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -108,9 +108,9 @@ h2 {
 
 .Temas {
     background-color: bisque;
-  
+
     font-size: 30px;
-    
+
 }
 
 
@@ -151,12 +151,12 @@ header {
     font-size: 35px;
 }
 
-@media (max-width:480px){
+@media (max-width:480px) {
     header {
         background-color: lightblue;
         display: flex;
         flex-direction: row;
-        justify-content:space-between;
+        justify-content: space-between;
         row-gap: 20px;
     }
 }
@@ -176,7 +176,7 @@ header {
 
 .variedad {
     background-color: lightblue;
-    color: bisque;
+    /*color: bisque;*/
     font-size: 30px;
     display: flex;
     flex-direction: row;
@@ -206,7 +206,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
 }
-    
+
 
 .escuchadas {
     display: grid;
@@ -217,7 +217,7 @@ header {
     row-gap: 30px;
 }
 
-@media(max-width: 480px) {
+@media(max-width: 420px) {
     .escuchadas {
         display: grid;
         grid-template-rows: 200px;
@@ -225,10 +225,52 @@ header {
         height: 800px;
         column-gap: 40px;
         row-gap: 20px;
-        
-    
     }
 }
+
+
+@media(min-width:1200px){
+    .escuchadas{
+        display: grid;
+        grid-template-rows: 200px;
+        grid-template-columns: 2fr 2fr;
+        height: 700px;
+        column-gap: 40px;
+        row-gap: 20px;
+        background-color: bisque;
+
+    }
+}
+
+@media(max-width: 420px) {
+    .artistas {}
+}
+
+.moment {
+    background-color: bisque;
+    font-size: 32px;
+}
+
+@media(max-width:420px) {
+    .moment {
+        font-size: 16px;
+        background-color: lightblue;
+        color: black;
+    }
+}
+
+
+
+@media(max-width: 420px) {
+    .variedad {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+    }
+}
+
 
 
 
@@ -328,4 +370,16 @@ header {
     background-size: 200px 150px;
     background-position: 5px 40px;
     width: 45%;
+}
+
+.search {
+    background-color: lightblue;
+    font-size: 32px;
+}
+
+@media(max-width:420px) {
+    .search {
+        font-size: 16px;
+
+    }
 }
