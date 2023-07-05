@@ -107,8 +107,10 @@ h2 {
 }
 
 .Temas {
-    background-color: bisque;
-
+  
+display: flex;
+flex-direction: row;
+justify-content: space-between;
     font-size: 30px;
 
 }
@@ -117,7 +119,7 @@ h2 {
 .Variacion {
 
     /*background-color: lightblue;*/
-    color: bisque;
+   color: bisque;
     font-size: 30px;
 }
 
@@ -151,7 +153,7 @@ header {
     font-size: 35px;
 }
 
-@media (max-width:480px) {
+@media (max-width:420px) {
     header {
         background-color: lightblue;
         display: flex;
@@ -176,7 +178,7 @@ header {
 
 .variedad {
     background-color: lightblue;
-    /*color: bisque;*/
+   
     font-size: 30px;
     display: flex;
     flex-direction: row;
@@ -229,8 +231,8 @@ header {
 }
 
 
-@media(min-width:1200px){
-    .escuchadas{
+@media(min-width:1200px) {
+    .escuchadas {
         display: grid;
         grid-template-rows: 200px;
         grid-template-columns: 2fr 2fr;
@@ -243,13 +245,26 @@ header {
 }
 
 @media(max-width: 420px) {
-    .artistas {}
+    .artistas {
+        display: grid;
+        grid-template-rows: 200px;
+        grid-template-columns: 1fr ;
+
+        row-gap: 30px;
+        justify-content: space-between;
+        column-gap: 30px;
+        height: 700px;
+    }
 }
+
+
 
 .moment {
     background-color: bisque;
     font-size: 32px;
 }
+
+
 
 @media(max-width:420px) {
     .moment {
@@ -278,6 +293,7 @@ header {
     display: grid;
     grid-template-rows: 200px;
     grid-template-columns: 1fr 1fr 1fr;
+
     row-gap: 30px;
     justify-content: space-between;
     column-gap: 30px;
@@ -343,6 +359,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-size: 32px;
 }
 
 .eladio {
@@ -381,5 +398,35 @@ header {
     .search {
         font-size: 16px;
 
+    }
+}
+.always{
+    font-size: 28px;
+}
+@media(max-width:420px){
+    .always{
+        font-size: 14px;
+        background-color: lightblue;
+    }
+}
+.correo{
+  
+font-size: 28px;
+    
+}
+@media(max-width:420px){
+    .correo{
+        font-size: 16px;
+        background-color: lightblue;
+    }
+}
+.start{
+    font-size: 22px;
+   
+}
+@media(max-width:420px){
+    .start{
+        font-size: 12px;
+        background-color: lightblue;
     }
 }
