@@ -208,6 +208,15 @@ header {
     flex-direction: row;
     justify-content: space-between;
 }
+@media(max-width:420px){
+    .Temas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+}
+
 
 
 .escuchadas {
@@ -224,7 +233,7 @@ header {
         display: grid;
         grid-template-rows: 200px;
         grid-template-columns: 2fr 2fr;
-        height: 800px;
+        height: 650px;
         column-gap: 40px;
         row-gap: 20px;
     }
@@ -409,6 +418,17 @@ header {
         background-color: lightblue;
     }
 }
+
+@media(min-width:1200px){
+    .always{
+        font-size: 32px;
+        color: black;
+       
+    }
+}
+
+
+
 .correo{
   
 font-size: 28px;
@@ -420,13 +440,64 @@ font-size: 28px;
         background-color: lightblue;
     }
 }
+
+@media(min-width:1200px){
+    .correo{
+        font-size: 28px;
+        background-color: crimson;
+        width: 600px;
+       }
+}
+
+
+
 .start{
     font-size: 22px;
-   
+
 }
+
 @media(max-width:420px){
     .start{
         font-size: 12px;
         background-color: lightblue;
+    }
+}
+@media(min-width:1200px){
+    .start{
+        font-size: 28px;
+        
+    }
+}
+
+.leave{
+    font-size: 26px;
+    background-color: lightblue;
+    color: black;
+}
+
+@media(max-width:420px){
+    .leave{
+        font-size: 12px;
+        background-color: lightblue;
+        color: black;
+    }
+}
+
+@media(min-width:1200px){
+    .leave{
+        font-size: 30px;
+        background-color: crimson;
+        color: black;
+    }
+}
+
+.mas{font-size: 24px;
+background-color: bisque;}
+
+@media(max-width:420px){
+    .mas{
+        font-size: 15px;
+        background-color: lightblue;
+        color: black;
     }
 }
