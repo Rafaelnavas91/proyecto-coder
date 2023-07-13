@@ -11,26 +11,50 @@ h2 {
     background-color: bisque;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
     font-size: 30px;
-    min-width: 200px;
-    max-width: 600px;
+   
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.link {
+    color: blue;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 
 }
 
 .Musica {
-    color: bisque;
+
     background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
 }
 
 #Social {
     color: bisque;
     font-size: 35px;
     background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .Consulta {
     color: lightblue;
     font-size: 35px;
     background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #textomusica {
@@ -42,17 +66,24 @@ h2 {
     border-style: solid;
     border-width: 20px;
     border-color: bisque;
+
     margin-top: 40px;
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-left: 620px;
+
 }
 
 .surgimiento {
     color: bisque;
     background-color: lightblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /*.taylor {
     background-image: url(../img/taylor\ swift.jpg);
@@ -79,13 +110,18 @@ h2 {
     border-color: bisque;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 40px;
+    margin-left: 620px;
+
+
 }
 
 .internacional {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: lightblue;
     color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .abel {
@@ -93,8 +129,10 @@ h2 {
     background-position: 150PX 20PX;
     background-repeat: no-repeat;
     background-size: 350PX 200PX;
-    background-color: lightblue;
+
     height: 250px;
+    
+   margin-left: 620px;
 }
 
 .canciones {
@@ -106,21 +144,21 @@ h2 {
     font-size: 30px;
 }
 
-.Temas {
-  
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+/*.Temas {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: 30px;
 
-}
+}*/
 
 
 .Variacion {
 
     /*background-color: lightblue;*/
-   color: bisque;
-    font-size: 30px;
+  
+    font-size: 20px;
 }
 
 a {
@@ -164,25 +202,24 @@ header {
 }
 
 .taylor {
-    /*display: flex;
-    gap: 30px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;*/
+
     display: grid;
     grid-template-rows: 200px;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;
+    justify-content: left;
+
 
 }
 
 .variedad {
-    background-color: lightblue;
-   
+    
+
     font-size: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 
 }
 
@@ -190,26 +227,24 @@ header {
     background-color: gray;
     background-image: url(../img/taylor\ swift.jpg);
     background-repeat: no-repeat;
-    background-size: 200px 150px;
-    background-position: 95px 40px;
+
+
 }
 
 .bad {
     background-color: wheat;
     background-image: url(../img/badbunny.jpg);
     background-repeat: no-repeat;
-    background-size: 200px 150px;
-    background-position: 95px 40px;
-
 }
 
-.Temas {
+/*.Temas {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-@media(max-width:420px){
-    .Temas{
+}*/
+
+@media(max-width:420px) {
+    .Temas {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -257,7 +292,7 @@ header {
     .artistas {
         display: grid;
         grid-template-rows: 200px;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
 
         row-gap: 30px;
         justify-content: space-between;
@@ -399,7 +434,7 @@ header {
 }
 
 .search {
-    background-color: lightblue;
+background-color:bisque;
     font-size: 32px;
 }
 
@@ -409,95 +444,131 @@ header {
 
     }
 }
-.always{
+
+.always {
     font-size: 28px;
 }
-@media(max-width:420px){
-    .always{
-        font-size: 14px;
+
+@media(max-width:420px) {
+    .always {
+        font-size: 18px;
         background-color: lightblue;
     }
 }
 
-@media(min-width:1200px){
-    .always{
+@media(min-width:1200px) {
+    .always {
         font-size: 32px;
         color: black;
-       
+
     }
 }
 
 
 
-.correo{
-  
-font-size: 28px;
-    
+.correo {
+
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
-@media(max-width:420px){
-    .correo{
+
+@media(max-width:420px) {
+    .correo {
         font-size: 16px;
         background-color: lightblue;
     }
 }
 
-@media(min-width:1200px){
-    .correo{
+@media(min-width:1200px) {
+    .correo {
         font-size: 28px;
         background-color: crimson;
         width: 600px;
-       }
+    }
 }
 
 
 
-.start{
+.start {
     font-size: 22px;
 
 }
 
-@media(max-width:420px){
-    .start{
+@media(max-width:420px) {
+    .start {
         font-size: 12px;
         background-color: lightblue;
     }
 }
-@media(min-width:1200px){
-    .start{
+
+@media(min-width:1200px) {
+    .start {
         font-size: 28px;
-        
+
     }
 }
 
-.leave{
+.leave {
     font-size: 26px;
     background-color: lightblue;
     color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
 
-@media(max-width:420px){
-    .leave{
+@media(max-width:420px) {
+    .leave {
         font-size: 12px;
         background-color: lightblue;
         color: black;
     }
 }
 
-@media(min-width:1200px){
-    .leave{
+@media(min-width:1200px) {
+    .leave {
         font-size: 30px;
         background-color: crimson;
         color: black;
     }
 }
 
-.mas{font-size: 24px;
-background-color: bisque;}
+.mas {
+    font-size: 29px;
+    background-color: bisque;
 
-@media(max-width:420px){
-    .mas{
+}
+
+@media(max-width:420px) {
+    .mas {
         font-size: 15px;
         background-color: lightblue;
         color: black;
     }
 }
+
+.nav-link {
+    color: blue;
+    
+}
+
+@media(max-width:420px){
+    .nav-link{
+        font-size: 12px;
+       
+    }
+}
+
+
+
+.encabezado {
+    background-color: lightblue;
+
+}
+

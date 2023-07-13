@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <h1>Music    </h1>
+        <h1>Music </h1>
 
         <nav>
             <ul>
@@ -21,8 +23,8 @@
                 <li><a href="">proximos temas</a></li>
             </ul>
         </nav>
-        <a href="./pages/registrate.html">Registrate aca! </a>
- 
+        <a class="link" href="./pages/registrate.html">Registrate aca! </a>
+
     </header>
     <main>
 
@@ -35,9 +37,10 @@
         <section class="abel"></section>
 
         <section>
+
+            <h2 class="container"> Nuestra historia</h2>
+            <link rel="stylesheet" href="./css/styles.css">
             <article>
-                <h2> Nuestra historia</h2>
-                <link rel="stylesheet" href="./css/styles.css">
                 <h3 class="surgimiento">¿Como surgio?</h3>
                 <p class="historia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, aperiam! Tenetur
                     eligendi quas, nam
@@ -47,49 +50,80 @@
                     rerum autem officia eveniet aut, ad architecto nemo et vel tempora explicabo ut laboriosam?
                     Voluptatem, quos blanditiis?
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem beatae dolorum, dicta
-                    aspernatur repudiandae delectus odit! Dolorum error illum enim. Quos quae sed, incidunt dolorum cum
-                    ducimus aliquid dicta nobis.
+                    aspernatur repudiandae delectus odit! Dolorum error illum enim.
                 </p>
             </article>
-            <a href="#Redes sociales">ir a redes sociales</a>
+            <a class="link" href="#Redes sociales">ir a redes sociales</a>
         </section>
 
         <hr>
 
+        <section class="Musica">
+            <h2>Recomendamos lo que mas suena</h2>
+        </section>
+
+        <article>
+            <p id="textomusica">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsam quos sunt,
+                officia non
+                ratione quasi suscipit blanditiis ut aperiam? Doloremque sequi nesciunt quibusdam, fugit
+                recusandae
+                accusamus molestias quisquam
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit accusamus eveniet
+                voluptas
+                </p>
+        </article>
+
         <section>
-            <h2 class="Musica">Recomendamos lo que mas suena</h2>
-            <article id="textomusica">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsam quos sunt, officia non
-                    ratione quasi suscipit blanditiis ut aperiam? Doloremque sequi nesciunt quibusdam, fugit
-                    recusandae
-                    accusamus molestias quisquam
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit accusamus eveniet
-                    voluptas
-                    corrupti rerum odio, expedita, veritatis, minus nihil quisquam delectus? Praesentium quae, enim
-                    dignissimos non quas modi cum perspiciatis</p>
-            </article>
 
-
-
-            <h3 class="internacional">artistas internacionales</h3>
+            <h3 class=" container-fluid internacional">artistas internacionales</h3>
 
 
 
 
         </section>
 
-        <section class="taylor">
-            <a href="./pages/artistas.html">Variacion de artistas</a>
-            <article class="swift" >TAYLOR SWIFT</article>
-            <article class="bad" >BAD BUNNY</article>
-            
+        <section class="container ">
+
+            <a class=" link" href="./pages/artistas.html">Variacion de artistas</a>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/badbunny.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/taylor swift.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/feid.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
 
         </section>
         <hr>
-        <section>
+        <section class="container-fluid">
             <h2>CANCIONES DEL MOMENTO</h2>
             Temas que probablemente hayas escuchado, no te lo pierdas!
-            <a href="./pages/canciones.html">Canciones del dia</a>
+            <a class="link" href="./pages/canciones.html">Canciones del dia</a>
         </section>
 
         <section>
@@ -103,7 +137,7 @@
 
 
     <footer>
-        <div id="Redes sociales">
+        <div class="container-fluid" id="Redes sociales">
             <h4 id="Social">Nuestras redes sociales</h4>
             <ul>
                 <li>Instagram</li>
@@ -113,17 +147,22 @@
             </ul>
         </div>
 
-        <div>
-            <h4 class="Consulta">Si tienes una consulta, escribenos por este link!</h4>
+        <div >
+            <h4 class=" Consulta">Si tienes una consulta, escribenos por este link!</h4>
+            <div>
             <ul>
                 <li>Numero de telefono</li>
                 <li>Correo electronico</li>
             </ul>
         </div>
+        </div>
 
-        <h5>TAMBIEN PUEDES COMUNICARTE POR ACA</h5>
-        <a href="./pages/contacto.html">contacto</a>
+        <h5 >TAMBIEN PUEDES COMUNICARTE POR ACA</h5>
+        <a class="link" href="./pages/contacto.html">contacto</a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
