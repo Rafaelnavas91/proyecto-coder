@@ -1,574 +1,261 @@
 h1 {
-
-    background-color: bisque;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
+  background-color: lightblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 h2 {
-    color: lightblue;
-    background-color: bisque;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
-    font-size: 30px;
-   
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-
-}
-
-
-.link {
-    color: blue;
-    font-size: 22px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-
-}
-
-.Musica {
-
-    background-color: lightblue;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-
-}
-
-#Social {
-    color: bisque;
-    font-size: 35px;
-    background-color: lightblue;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.Consulta {
-    color: lightblue;
-    font-size: 35px;
-    background-color: bisque;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#textomusica {
-    background-color: lightblue;
-    font-size: 20px;
-    width: 649px;
-    height: 220px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-style: solid;
-    border-width: 20px;
-    border-color: bisque;
-
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 620px;
-
-}
-
-.surgimiento {
-    color: bisque;
-    background-color: lightblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 28px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/*.taylor {
-    background-image: url(../img/taylor\ swift.jpg);
-  
-    background-position: 50px 60px;
-    background-repeat: no-repeat;
-    background-size: 350px 150px;
-    background-color: grey;
-    height: 250px;
-
-
-}*/
-
-.historia {
-    background-color: lightblue;
-    color: black;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    min-width: 200px;
-    max-width: 600px;
-    overflow: auto;
-    border-style: solid;
-    border-width: 20px;
-    border-color: bisque;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 620px;
-
-
-}
-
-.internacional {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: lightblue;
-    color: black;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-}
-
-.abel {
-    background-image: url(../img/theweeknd.jpg);
-    background-position: 150PX 20PX;
-    background-repeat: no-repeat;
-    background-size: 350PX 200PX;
-
-    height: 250px;
-    
-   margin-left: 620px;
-}
-
-.canciones {
-    background-color: bisque;
-    color: lightblue;
-    min-width: 200px;
-    max-width: 600px;
-    height: 250px;
-    font-size: 30px;
-}
-
-/*.Temas {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 30px;
-
-}*/
-
-
-.Variacion {
-
-    /*background-color: lightblue;*/
-  
-    font-size: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-header ul {
-    display: flex;
-    gap: 30px;
-    background-color: bisque;
-    margin: 0;
-    padding: 0;
-
-
+  background-color: lightblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  font-size: 30px;
+  color: bisque;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
 }
 
 ul,
 ol {
-    list-style: none;
+  list-style: none;
+}
 
+header ul {
+  display: flex;
+  gap: 30px;
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: bisque;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 35px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 35px;
 }
 
-@media (max-width:420px) {
-    header {
-        background-color: lightblue;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        row-gap: 20px;
-    }
-}
-
-.taylor {
-
-    display: grid;
-    grid-template-rows: 200px;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 30px;
-    justify-content: left;
-
-
-}
-
-.variedad {
-    
-
-    font-size: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-
-}
-
-.swift {
-    background-color: gray;
-    background-image: url(../img/taylor\ swift.jpg);
-    background-repeat: no-repeat;
-
-
-}
-
-.bad {
-    background-color: wheat;
-    background-image: url(../img/badbunny.jpg);
-    background-repeat: no-repeat;
-}
-
-/*.Temas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}*/
-
-@media(max-width:420px) {
-    .Temas {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        font-size: 16px;
-    }
-}
-
-
-
-.escuchadas {
-    display: grid;
-    grid-template-rows: 200px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 30px;
-    justify-content: space-between;
-    row-gap: 30px;
-}
-
-@media(max-width: 420px) {
-    .escuchadas {
-        display: grid;
-        grid-template-rows: 200px;
-        grid-template-columns: 2fr 2fr;
-        height: 650px;
-        column-gap: 40px;
-        row-gap: 20px;
-    }
-}
-
-
-@media(min-width:1200px) {
-    .escuchadas {
-        display: grid;
-        grid-template-rows: 200px;
-        grid-template-columns: 2fr 2fr;
-        height: 700px;
-        column-gap: 40px;
-        row-gap: 20px;
-        background-color: bisque;
-
-    }
-}
-
-@media(max-width: 420px) {
-    .artistas {
-        display: grid;
-        grid-template-rows: 200px;
-        grid-template-columns: 1fr;
-
-        row-gap: 30px;
-        justify-content: space-between;
-        column-gap: 30px;
-        height: 700px;
-    }
-}
-
-
-
-.moment {
-    background-color: bisque;
-    font-size: 32px;
-}
-
-
-
-@media(max-width:420px) {
-    .moment {
-        font-size: 16px;
-        background-color: lightblue;
-        color: black;
-    }
-}
-
-
-
-@media(max-width: 420px) {
-    .variedad {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 16px;
-    }
-}
-
-
-
-
-.artistas {
-    display: grid;
-    grid-template-rows: 200px;
-    grid-template-columns: 1fr 1fr 1fr;
-
-    row-gap: 30px;
-    justify-content: space-between;
-    column-gap: 30px;
-}
-
-
-.cruel {
-    background-color: pink;
-    background-image: url(../img/cruelsummer.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px 150px;
-    background-position: 5px 40px;
-
-
-
-
-
-}
-
-.where {
-    background-color: blue;
-    background-image: url(../img/where.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px 150px;
-    background-position: 5px 40px;
-
-}
-
-.Creepin {
-    background-color: gray;
-    background-image: url(../img/creepin.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px 150px;
-    background-position: 5px 40px;
-}
-
-.die {
-
-    background-color: rgb(139, 24, 24);
-    background-image: url(../img/theweeknd.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px 150px;
-    background-position: 5px 40px;
-}
-
-.cielo {
-    background-color: lightblue;
-    background-image: url(../img/cielo.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px 150px;
-    background-position: 5px 40px;
-
-}
-
-.registro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.alguna {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 32px;
-}
-
-.eladio {
-    background-color: yellow;
-    background-image: url(../img/eladio.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px 150px;
-    background-position: 5px 40px;
-    width: 45%;
-}
-
-.lana {
-    background-color: green;
-    background-image: url(../img/lana.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px 150px;
-    background-position: 5px 40px;
-    width: 45%;
-}
-
-.rauw {
-    background-color: rgb(114, 36, 36);
-    background-image: url(../img/rauw.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px 150px;
-    background-position: 5px 40px;
-    width: 45%;
-}
-
-.search {
-background-color:bisque;
-    font-size: 32px;
-}
-
-@media(max-width:420px) {
-    .search {
-        font-size: 16px;
-
-    }
-}
-
-.always {
-    font-size: 28px;
-}
-
-@media(max-width:420px) {
-    .always {
-        font-size: 18px;
-        background-color: lightblue;
-    }
-}
-
-@media(min-width:1200px) {
-    .always {
-        font-size: 32px;
-        color: black;
-
-    }
-}
-
-
-
-.correo {
-
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-@media(max-width:420px) {
-    .correo {
-        font-size: 16px;
-        background-color: lightblue;
-    }
-}
-
-@media(min-width:1200px) {
-    .correo {
-        font-size: 28px;
-        background-color: crimson;
-        width: 600px;
-    }
-}
-
-
-
-.start {
-    font-size: 22px;
-
-}
-
-@media(max-width:420px) {
-    .start {
-        font-size: 12px;
-        background-color: lightblue;
-    }
-}
-
-@media(min-width:1200px) {
-    .start {
-        font-size: 28px;
-
-    }
-}
-
-.leave {
-    font-size: 26px;
-    background-color: lightblue;
-    color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}
-
-@media(max-width:420px) {
-    .leave {
-        font-size: 12px;
-        background-color: lightblue;
-        color: black;
-    }
-}
-
-@media(min-width:1200px) {
-    .leave {
-        font-size: 30px;
-        background-color: crimson;
-        color: black;
-    }
-}
-
-.mas {
-    font-size: 29px;
-    background-color: bisque;
-
-}
-
-@media(max-width:420px) {
-    .mas {
-        font-size: 15px;
-        background-color: lightblue;
-        color: black;
-    }
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .nav-link {
-    color: blue;
-    
+  color: blue;
 }
 
-@media(max-width:420px){
-    .nav-link{
-        font-size: 12px;
-       
-    }
+@media (max-width: 420px) {
+  .nav-link {
+    font-size: 12px;
+  }
+}
+.link {
+  color: red;
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  border-radius: 10px;
+  background-color: lightblue;
+  border-radius: 10px;
+  width: 135px;
+  justify-content: center;
+}
+.link:hover {
+  color: blue;
 }
 
+.Musica {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+.surgimiento {
+  color: bisque;
+  background-color: lightblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.historia {
+  background-color: lightblue;
+  color: black;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  min-width: 200px;
+  max-width: 600px;
+  overflow: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-color: bisque;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 620px;
+}
+
+.Musica {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Musica__conciertos {
+  background-color: lightblue;
+  font-weight: 700;
+  float: left;
+  width: 200px;
+  height: 100%;
+  margin-top: 20px;
+  align-items: center;
+}
+.Musica__conciertos ul, .Musica li {
+  display: flex;
+  flex-direction: column;
+  column-gap: 15px;
+  color: bisque;
+}
+
+#textomusica {
+  background-color: lightblue;
+  font-size: 20px;
+  width: 649px;
+  height: 220px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-style: solid;
+  border-width: 20px;
+  border-color: bisque;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 620px;
+}
+
+.internacional {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: lightblue;
+  color: black;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#Social {
+  color: bisque;
+  font-size: 35px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Consulta {
+  color: bisque;
+  font-size: 35px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 .encabezado {
-    background-color: lightblue;
-
+  background-color: lightblue;
+  color: rgb(194, 127, 160);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
+.mas {
+  font-size: 29px;
+  background-color: lightblue;
+  color: rgb(194, 127, 160);
+}
+
+@media (max-width: 420px) {
+  .mas {
+    font-size: 15px;
+    background-color: lightblue;
+    color: black;
+  }
+}
+.escuchadas {
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+@media (max-width: 420px) {
+  .escuchadas {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 2fr 2fr;
+    height: 650px;
+    column-gap: 40px;
+    row-gap: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .escuchadas {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 2fr 2fr;
+    height: 700px;
+    column-gap: 40px;
+    row-gap: 20px;
+    background-color: lightblue;
+  }
+}
+.where {
+  background-image: url(../img/cruelsummer.jpg);
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+  background-position: 5px 40px;
+  border-style: double;
+  width: 45%;
+  background-image: url(../img/where.jpg);
+}
+
+.creepin {
+  background-image: url(../img/cruelsummer.jpg);
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+  background-position: 5px 40px;
+  border-style: double;
+  width: 45%;
+  background-image: url(../img/creepin.jpg);
+}
+
+.die {
+  background-image: url(../img/cruelsummer.jpg);
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+  background-position: 5px 40px;
+  border-style: double;
+  width: 45%;
+  background-image: url(../img/theweeknd.jpg);
+}
+
+.cielo {
+  background-image: url(../img/cruelsummer.jpg);
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+  background-position: 5px 40px;
+  border-style: double;
+  width: 45%;
+  background-image: url(../img/cielo.jpg);
+}
+
+/*# sourceMappingURL=styles.css.map */

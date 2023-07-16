@@ -1,0 +1,91 @@
+$color-de-fondo: lightblue;
+
+$color: rgb(194, 127, 160) ;
+
+.encabezado {
+    background-color: $color-de-fondo;
+color: $color;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.mas {
+    font-size: 29px;
+    background-color: $color-de-fondo;
+    color: $color;
+
+}
+@media(max-width:420px) {
+    .mas {
+        font-size: 15px;
+        background-color: $color-de-fondo;
+        color: black;
+    }
+}
+
+.escuchadas {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    justify-content: space-between;
+    row-gap: 30px;
+    
+
+}
+
+@media(max-width: 420px) {
+    .escuchadas {
+        display: grid;
+        grid-template-rows: 200px;
+        grid-template-columns: 2fr 2fr;
+        height: 650px;
+        column-gap: 40px;
+        row-gap: 20px;
+    }
+}
+
+
+@media(min-width:1200px) {
+    .escuchadas {
+        display: grid;
+        grid-template-rows: 200px;
+        grid-template-columns: 2fr 2fr;
+        height: 700px;
+        column-gap: 40px;
+        row-gap: 20px;
+        background-color:$color-de-fondo;
+
+    }
+}
+
+
+@mixin cruel{
+    background-image:url(../img/cruelsummer.jpg);
+   background-color: gray;
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 5px 40px;
+ border-style: double;
+width: 45%
+
+
+}
+
+.where{
+    @include cruel;
+    background-image:url(../img/where.jpg); 
+}
+.creepin{
+    @include cruel;
+    background-image:url(../img/creepin.jpg) ;
+}
+.die{
+    @include cruel;
+    background-image: url(../img/theweeknd.jpg);
+}
+.cielo{
+    @include cruel;
+    background-image:  url(../img/cielo.jpg);
+}
