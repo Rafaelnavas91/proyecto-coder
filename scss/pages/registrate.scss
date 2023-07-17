@@ -1,0 +1,70 @@
+.always {
+    font-size: 28px;
+}
+
+@media(max-width:420px) {
+    .always {
+        font-size: 18px;
+        background-color: lightblue;
+    }
+}
+
+@media(min-width:1200px) {
+    .always {
+        font-size: 32px;
+        color: black;
+
+    }
+}
+.leave {
+    font-size: 26px;
+    background-color: lightblue;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media(max-width:420px) {
+    .leave {
+        font-size: 12px;
+        background-color: lightblue;
+        color: black;
+    }
+}
+
+@media(min-width:1200px) {
+    .leave {
+        font-size: 30px;
+        background-color: crimson;
+        color: black;
+    }
+}
+.correo {
+
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 40px;
+border-style: solid;
+margin-top: 20px;
+}
+
+@media(max-width:420px) {
+    .correo {
+        font-size: 16px;
+        background-color: lightblue;
+    }
+}
+
+@media(min-width:1200px) {
+    .correo {
+        font-size: 22px;
+        background-color: crimson;
+        width: 600px;
+    }
+}

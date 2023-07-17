@@ -1,0 +1,126 @@
+$color-de-fondo:lightblue;
+$color:rgb(194, 127, 160) ;
+
+.variedad {
+    
+
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+
+}
+
+@media(max-width: 420px) {
+    .variedad {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        font-size: 16px;
+    }
+}
+
+
+.search {
+    background-color:bisque;
+        font-size: 22px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    @media(max-width:420px) {
+        .search {
+            font-size: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+    
+        }
+    }
+
+    .Variacion {
+
+    
+        font-size: 20px;
+       
+    }
+
+
+    .moment {
+        background-color: $color-de-fondo;
+        font-size: 32px;
+    }
+    
+    
+    
+    @media(max-width:420px) {
+        .moment {
+            font-size: 16px;
+            background-color: $color-de-fondo;
+            color: black;
+        }
+    }
+
+    .artistas {
+        display: grid;
+        grid-template-rows: 200px;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+        row-gap: 30px;
+        justify-content: space-between;
+        column-gap: 30px;
+    }
+    @media(max-width: 420px) {
+        .artistas {
+            display: grid;
+            grid-template-rows: 200px;
+            grid-template-columns: 1fr;
+    
+            row-gap: 30px;
+            justify-content: space-between;
+            column-gap: 30px;
+            height: 700px;
+            
+        }
+    }
+    
+    .eladio {
+        background-color: yellow;
+        background-image: url(../img/eladio.jpg);
+        background-repeat: no-repeat;
+        background-size: 200px 150px;
+        background-position: 5px 40px;
+        width: 60%;
+        margin-left: 70PX;
+        border-style: double;
+    }
+
+    .lana {
+        background-color: green;
+        background-image: url(../img/lana.jpg);
+        background-repeat: no-repeat;
+        background-size: 200px 150px;
+        background-position: 5px 40px;
+        width: 60%;
+        margin-left: 70PX;
+        border-style: double;
+    }
+    
+    .rauw {
+        background-color: rgb(114, 36, 36);
+        background-image: url(../img/rauw.jpg);
+        background-repeat: no-repeat;
+        background-size: 200px 150px;
+        background-position: 5px 40px;
+        width: 60%;
+        margin-left: 70PX;
+        border-style: double;
+    }
+
+    
+    

@@ -1,131 +1,149 @@
 $color-de-fondo: lightblue;
-$color:bisque;
+$color: bisque;
 
 
-.link  {
-    color: red;
-    font-size: 22px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    border-radius: 10px;
-    background-color: $color-de-fondo;
-    border-radius: 10px;
-   width: 135px;
-   justify-content: center;
-   
- &:hover{
+.link {
+  color: red;
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  border-radius: 10px;
+  background-color: $color-de-fondo;
+  border-radius: 10px;
+  width: 135px;
+  justify-content: center;
+
+  &:hover {
     color: blue;
- }
   }
-  .Musica {
+}
 
-    background-color: $color-de-fondo;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  
-  
-  }
-  
-  
-  .surgimiento {
-    color:$color;
-    background-color: $color-de-fondo;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 28px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  
-  .historia {
-    background-color: $color-de-fondo;
-    color: black;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    min-width: 200px;
-    max-width: 600px;
-    overflow: auto;
-    border-style: solid;
-    border-width: 20px;
-    border-color: bisque;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 620px;
-  
-  
-  }
-  .Musica {
+.Musica {
 
-    background-color: $color-de-fondo;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-     &__conciertos{
-        background-color:$color-de-fondo;
-        font-weight: 700;
-        
-            float: left;
-            width: 200px;
-            height: 100%;
-            margin-top: 20px;
-align-items: center;
+  background-color: $color-de-fondo;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
-     }
-     &__conciertos ul,li{
-        display: flex;
-        flex-direction: column;
-        column-gap: 15px;
-        color: $color;
-     }
-     
 
 }
+
+
+.surgimiento {
+  color: $color;
+  background-color: $color-de-fondo;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.historia {
+  background-color: $color-de-fondo;
+  color: black;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  min-width: 200px;
+  max-width: 600px;
+  overflow: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-color: bisque;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 620px;
+
+
+}
+
+
+
+.Musica {
+
+  background-color: $color-de-fondo;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+   &__conciertos {
+    background-color: $color-de-fondo;
+    font-weight: 700;
+
+    float: left;
+    width: 200px;
+    height: 100%;
+    margin-top: 40px;
+
+    align-items: center;
+
+  }
+
+  &__conciertos ul,
+  li {
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+    color: $color;
+  }
+
+
+
+
+}
+
+  
+
 
 
 #textomusica {
-    background-color: $color-de-fondo;
-    font-size: 20px;
-    width: 649px;
-    height: 220px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-style: solid;
-    border-width: 20px;
-    border-color: bisque;
+  background-color: $color-de-fondo;
+  font-size: 20px;
+  width: 649px;
+  height: 220px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-style: solid;
+  border-width: 20px;
+  border-color: bisque;
 
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 620px;
+  margin-top:20px;
+  margin-bottom: 40px;
+  margin-left: 620px;
 
 }
+
 .internacional {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: $color-de-fondo;
-    color: black;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: $color-de-fondo;
+  color: black;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
 }
 
 #Social {
-    color: $color;
-    font-size: 35px;
-    background-color:$color-de-fondo;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  color: $color;
+  font-size: 35px;
+  background-color: $color-de-fondo;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
+
 .Consulta {
-    color: $color;
-    font-size: 35px;
-    background-color:$color-de-fondo;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  color: $color;
+  font-size: 35px;
+  background-color: $color-de-fondo;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media(max-width:420px){
+
 }
