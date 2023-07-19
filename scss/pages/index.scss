@@ -13,6 +13,7 @@ $color: bisque;
   border-radius: 10px;
   width: 135px;
   justify-content: center;
+  margin-left: 20px;
 
   &:hover {
     color: blue;
@@ -70,17 +71,17 @@ $color: bisque;
   flex-direction: row;
   justify-content: center;
 
-   &__conciertos {
+  &__conciertos {
     background-color: $color-de-fondo;
     font-weight: 700;
 
     float: left;
-    width: 200px;
+    width: 300px;
     height: 100%;
     margin-top: 40px;
-
+    border-style: solid;
     align-items: center;
-
+    margin-left: 30px;
   }
 
   &__conciertos ul,
@@ -96,7 +97,7 @@ $color: bisque;
 
 }
 
-  
+
 
 
 
@@ -110,7 +111,7 @@ $color: bisque;
   border-width: 20px;
   border-color: bisque;
 
-  margin-top:20px;
+  margin-top: 20px;
   margin-bottom: 40px;
   margin-left: 620px;
 
@@ -125,15 +126,7 @@ $color: bisque;
   flex-direction: row;
 }
 
-#Social {
-  color: $color;
-  font-size: 35px;
-  background-color: $color-de-fondo;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .Consulta {
   color: $color;
@@ -144,6 +137,167 @@ $color: bisque;
   justify-content: center;
 }
 
-@media(max-width:420px){
+.descripcion {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(2, 250px);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  gap: 20px;
+  color: black;
+
+  &__abel {
+    background: rgb(43, 158, 185);
+    background: linear-gradient(90deg, rgba(43, 158, 185, 1) 27%, rgba(121, 142, 145, 1) 88%);
+    grid-row: span 2;
+    border-style: solid;
+
+  }
+
+  &__rihanna {
+    background: rgb(232, 99, 106);
+    background: linear-gradient(90deg, rgba(232, 99, 106, 1) 27%, rgba(118, 179, 109, 1) 75%);
+    border-style: solid;
+  }
+
+  &__taylor {
+    background: rgb(232, 99, 106);
+    background: linear-gradient(90deg, rgba(232, 99, 106, 1) 27%, rgba(118, 179, 109, 1) 75%);
+    border-style: solid;
+  }
+
+  &__bad {
+    background: rgb(232, 99, 106);
+    background: linear-gradient(90deg, rgba(232, 99, 106, 1) 27%, rgba(118, 179, 109, 1) 75%);
+    border-style: solid;
+
+  }
+
+  &__yankee {
+    background: rgb(232, 99, 106);
+    background: linear-gradient(90deg, rgba(232, 99, 106, 1) 27%, rgba(118, 179, 109, 1) 75%);
+    border-style: solid;
+  }
+}
+
+@mixin texto {
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: center;
+  border-style: solid;
+  margin-left: 5px;
+  margin-right: 5px;
+  overflow: auto;
 
 }
+
+.texto__rihanna {
+  @include texto;
+}
+
+
+.texto__taylor {
+  @include texto;
+}
+
+.texto__bad {
+  @include texto;
+}
+
+.texto__abel {
+  @include texto;
+  font-size: 16px;
+}
+
+.texto__yankee {
+  @include texto;
+}
+
+@media(max-width:420px) {
+  .descripcion {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: ( 150px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 20px;
+    color: black;
+
+    &__abel {
+      background: rgb(43, 158, 185);
+      background: linear-gradient(90deg, rgba(43, 158, 185, 1) 27%, rgba(121, 142, 145, 1) 88%);
+      grid-row: span 2;
+      border-style: solid;
+
+    }
+
+    &__rihanna {
+      background: rgb(232, 99, 106);
+      background: linear-gradient(90deg, rgba(232, 99, 106, 1) 27%, rgba(118, 179, 109, 1) 75%);
+      border-style: solid;
+    }
+
+    &__taylor {
+      background: rgb(232, 99, 106);
+      background: linear-gradient(90deg, rgba(232, 99, 106, 1) 27%, rgba(118, 179, 109, 1) 75%);
+      border-style: solid;
+    }
+
+    &__bad {
+      background: rgb(232, 99, 106);
+      background: linear-gradient(90deg, rgba(232, 99, 106, 1) 27%, rgba(118, 179, 109, 1) 75%);
+      border-style: solid;
+
+    }
+
+    &__yankee {
+      background: rgb(232, 99, 106);
+      background: linear-gradient(90deg, rgba(232, 99, 106, 1) 27%, rgba(118, 179, 109, 1) 75%);
+      border-style: solid;
+    }
+    
+    }
+
+
+  }
+
+  @media(max-width:420px){
+    @mixin texto {
+      font-size: 12px;
+      font-family: 'Times New Roman', Times, serif;
+      justify-content: center;
+      border-style: solid;
+      margin-left: 5px;
+      margin-right: 5px;
+      overflow: auto;
+  
+    }
+    
+    .texto__rihanna {
+      @include texto;
+    }
+    
+    
+    .texto__taylor {
+      @include texto;
+    }
+    
+    .texto__bad {
+      @include texto;
+    }
+    
+    .texto__abel {
+      @include texto;
+      font-size: 12px;
+    }
+    
+    .texto__yankee {
+      @include texto;
+    }
+  }
