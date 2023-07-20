@@ -81,7 +81,7 @@ $color:rgb(194, 127, 160) ;
             grid-template-rows: 200px;
             grid-template-columns: 1fr;
     
-            row-gap: 30px;
+            row-gap: 20px;
             justify-content: space-between;
             column-gap: 30px;
             height: 700px;
@@ -89,38 +89,87 @@ $color:rgb(194, 127, 160) ;
         }
     }
     
-    .eladio {
-        background-color: yellow;
-        background-image: url(../img/eladio.jpg);
-        background-repeat: no-repeat;
+@mixin cantantes{
+    background-repeat: no-repeat;
         background-size: 200px 150px;
         background-position: 5px 40px;
         width: 40%;
         margin-left: 70PX;
         border-style: double;
+        transition-duration: 3s;
+        &:hover{
+            transform: rotate(15deg) scale(1.2);
+            
+            }
+}
+
+    .eladio {
+        background-color: yellow;
+        background-image: url(../img/eladio.jpg);
+        @include cantantes ;
     }
 
     .lana {
         background-color: green;
         background-image: url(../img/lana.jpg);
-        background-repeat: no-repeat;
-        background-size: 200px 150px;
-        background-position: 5px 40px;
-        width: 40%;
-        margin-left: 70PX;
-        border-style: double;
+        @include cantantes ;
     }
     
     .rauw {
         background-color: rgb(114, 36, 36);
         background-image: url(../img/rauw.jpg);
-        background-repeat: no-repeat;
-        background-size: 200px 150px;
-        background-position: 5px 40px;
-        width: 40%;
-        margin-left: 70PX;
-        border-style: double;
+        @include cantantes ;
     }
 
+    @media(min-width:1200px){
+        .eladio {
+            @include cantantes ;
+            background-color: yellow;
+            background-image: url(../img/eladio.jpg);
+         
+            width: 50%;
+
+        
+        }
     
+        .lana {
+            @include cantantes ;
+            background-color: green;
+            background-image: url(../img/lana.jpg);
+          
+            width: 55%;
+          
+        }
+        
+        .rauw {
+            @include cantantes ;
+            background-color: rgb(114, 36, 36);
+            background-image: url(../img/rauw.jpg);
     
+            width: 50%;
+           
+        }
+    }
+    
+    @media(max-width:420px){
+        .eladio {
+            @include cantantes ;
+            background-color: yellow;
+            background-image: url(../img/eladio.jpg);
+            width: 55%;
+        }
+    
+        .lana {
+            @include cantantes ;
+            background-color: green;
+            background-image: url(../img/lana.jpg);
+            width: 55%;
+        }
+        
+        .rauw {
+            @include cantantes ;
+            background-color: rgb(114, 36, 36);
+            background-image: url(../img/rauw.jpg);
+ width: 55%;
+        }
+    }

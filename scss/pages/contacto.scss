@@ -22,3 +22,24 @@ font-family: 'Times New Roman', Times, serif;
 gap: 20px;
     }
 }
+
+@media(max-width:420px){
+    .necesitar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        background-color: lightblue;
+        &__formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightblue;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 10px;
+        }
+    }
+    
+}
