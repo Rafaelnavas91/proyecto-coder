@@ -288,6 +288,306 @@ a {
     transform: rotate(15deg) scale(1.2);
   }
 }
+.regge {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: repeat(2, 300px);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  gap: 20px;
+}
+
+@media (max-width: 420px) {
+  .regge {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 200px);
+  }
+}
+@media (min-width: 1200px) {
+  .regge {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: repeat(2, 300px);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 20px;
+  }
+}
+.anuel {
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+  background-position: 75px 70px;
+  width: 60%;
+  margin-left: 70PX;
+  border-style: double;
+  transition-duration: 3s;
+  background-image: url(../img/anuel.jpg);
+  background-color: rgb(177, 67, 67);
+}
+.anuel:hover {
+  transform: rotate(15deg) scale(1.2);
+}
+
+.feid {
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+  background-position: 75px 70px;
+  width: 60%;
+  margin-left: 70PX;
+  border-style: double;
+  transition-duration: 3s;
+  background-image: url(../img/feid.jpg);
+  background-color: beige;
+}
+.feid:hover {
+  transform: rotate(15deg) scale(1.2);
+}
+
+.myke {
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+  background-position: 75px 70px;
+  width: 60%;
+  margin-left: 70PX;
+  border-style: double;
+  transition-duration: 3s;
+  background-image: url(../img/myke.jpg);
+  background-color: rgb(177, 67, 67);
+}
+.myke:hover {
+  transform: rotate(15deg) scale(1.2);
+}
+
+.jhay {
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+  background-position: 75px 70px;
+  width: 60%;
+  margin-left: 70PX;
+  border-style: double;
+  transition-duration: 3s;
+  background-image: url(../img/jhay.jpg);
+  background-color: beige;
+}
+.jhay:hover {
+  transform: rotate(15deg) scale(1.2);
+}
+
+.balvin {
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+  background-position: 75px 70px;
+  width: 60%;
+  margin-left: 70PX;
+  border-style: double;
+  transition-duration: 3s;
+  background-image: url(../img/balvin.jpg);
+  background-color: beige;
+}
+.balvin:hover {
+  transform: rotate(15deg) scale(1.2);
+}
+
+.ozuna {
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+  background-position: 75px 70px;
+  width: 60%;
+  margin-left: 70PX;
+  border-style: double;
+  transition-duration: 3s;
+  background-image: url(../img/ozuna.jpg);
+  background-color: rgb(177, 67, 67);
+}
+.ozuna:hover {
+  transform: rotate(15deg) scale(1.2);
+}
+
+@media (max-width: 420px) {
+  .anuel {
+    background-repeat: no-repeat;
+    background-size: 100px 150px;
+    background-position: 25px 30px;
+    width: 80%;
+    margin-left: 20PX;
+    border-style: double;
+    transition-duration: 3s;
+    height: 200px;
+    background-image: url(../img/anuel.jpg);
+    background-color: rgb(177, 67, 67);
+  }
+  .anuel:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
+  .feid {
+    background-repeat: no-repeat;
+    background-size: 100px 150px;
+    background-position: 25px 30px;
+    width: 80%;
+    margin-left: 20PX;
+    border-style: double;
+    transition-duration: 3s;
+    height: 200px;
+    background-image: url(../img/feid.jpg);
+    background-color: beige;
+  }
+  .feid:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
+  .myke {
+    background-repeat: no-repeat;
+    background-size: 100px 150px;
+    background-position: 25px 30px;
+    width: 80%;
+    margin-left: 20PX;
+    border-style: double;
+    transition-duration: 3s;
+    height: 200px;
+    background-image: url(../img/myke.jpg);
+    background-color: rgb(177, 67, 67);
+  }
+  .myke:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
+  .jhay {
+    background-repeat: no-repeat;
+    background-size: 100px 150px;
+    background-position: 25px 30px;
+    width: 80%;
+    margin-left: 20PX;
+    border-style: double;
+    transition-duration: 3s;
+    height: 200px;
+    background-image: url(../img/jhay.jpg);
+    background-color: beige;
+  }
+  .jhay:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
+  .balvin {
+    background-repeat: no-repeat;
+    background-size: 100px 150px;
+    background-position: 25px 30px;
+    width: 80%;
+    margin-left: 20PX;
+    border-style: double;
+    transition-duration: 3s;
+    height: 200px;
+    background-image: url(../img/balvin.jpg);
+    background-color: beige;
+  }
+  .balvin:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
+  .ozuna {
+    background-repeat: no-repeat;
+    background-size: 100px 150px;
+    background-position: 25px 30px;
+    width: 80%;
+    margin-left: 20PX;
+    border-style: double;
+    transition-duration: 3s;
+    height: 200px;
+    background-image: url(../img/ozuna.jpg);
+    background-color: rgb(177, 67, 67);
+  }
+  .ozuna:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
+}
+@media (min-width: 1200px) {
+  .anuel {
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 25px 70px;
+    width: 60%;
+    margin-left: 70PX;
+    border-style: double;
+    transition-duration: 3s;
+    background-image: url(../img/anuel.jpg);
+    background-color: rgb(177, 67, 67);
+  }
+  .anuel:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
+  .feid {
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 25px 70px;
+    width: 60%;
+    margin-left: 70PX;
+    border-style: double;
+    transition-duration: 3s;
+    background-image: url(../img/feid.jpg);
+    background-color: beige;
+  }
+  .feid:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
+  .myke {
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 25px 70px;
+    width: 60%;
+    margin-left: 70PX;
+    border-style: double;
+    transition-duration: 3s;
+    background-image: url(../img/myke.jpg);
+    background-color: rgb(177, 67, 67);
+  }
+  .myke:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
+  .jhay {
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 25px 70px;
+    width: 60%;
+    margin-left: 70PX;
+    border-style: double;
+    transition-duration: 3s;
+    background-image: url(../img/jhay.jpg);
+    background-color: beige;
+  }
+  .jhay:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
+  .balvin {
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 25px 70px;
+    width: 60%;
+    margin-left: 70PX;
+    border-style: double;
+    transition-duration: 3s;
+    background-image: url(../img/balvin.jpg);
+    background-color: beige;
+  }
+  .balvin:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
+  .ozuna {
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 25px 70px;
+    width: 60%;
+    margin-left: 70PX;
+    border-style: double;
+    transition-duration: 3s;
+    background-image: url(../img/ozuna.jpg);
+    background-color: rgb(177, 67, 67);
+  }
+  .ozuna:hover {
+    transform: rotate(15deg) scale(1.2);
+  }
+}
 .encabezado {
   background-color: lightblue;
   color: rgb(194, 127, 160);

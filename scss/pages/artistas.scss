@@ -1,14 +1,14 @@
-$color-de-fondo:lightblue;
-$color:rgb(194, 127, 160) ;
+$color-de-fondo: lightblue;
+$color: rgb(194, 127, 160);
 
 .variedad {
-    
+
 
     font-size: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+
 
 
 }
@@ -17,7 +17,7 @@ $color:rgb(194, 127, 160) ;
     .variedad {
         display: flex;
         flex-direction: row;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         font-size: 16px;
     }
@@ -25,151 +25,350 @@ $color:rgb(194, 127, 160) ;
 
 
 .search {
-    background-color:bisque;
-        font-size: 22px;
+    background-color: bisque;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media(max-width:420px) {
+    .search {
+        font-size: 10px;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 20px;
+
     }
-    
-    @media(max-width:420px) {
-        .search {
-            font-size: 10px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-    
-        }
-    }
+}
 
-    .Variacion {
-
-    
-        font-size: 20px;
-       
-    }
+.Variacion {
 
 
+    font-size: 20px;
+
+}
+
+
+.moment {
+    background-color: $color-de-fondo;
+    font-size: 32px;
+}
+
+
+
+@media(max-width:420px) {
     .moment {
+        font-size: 16px;
         background-color: $color-de-fondo;
-        font-size: 32px;
+        color: black;
     }
-    
-    
-    
-    @media(max-width:420px) {
-        .moment {
-            font-size: 16px;
-            background-color: $color-de-fondo;
-            color: black;
-        }
-    }
+}
 
+.artistas {
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    row-gap: 30px;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+@media(max-width: 420px) {
     .artistas {
         display: grid;
         grid-template-rows: 200px;
-        grid-template-columns: 1fr 1fr 1fr;
-    
-        row-gap: 30px;
+        grid-template-columns: 1fr;
+
+        row-gap: 20px;
         justify-content: space-between;
         column-gap: 30px;
+        height: 700px;
+
     }
-    @media(max-width: 420px) {
-        .artistas {
-            display: grid;
-            grid-template-rows: 200px;
-            grid-template-columns: 1fr;
-    
-            row-gap: 20px;
-            justify-content: space-between;
-            column-gap: 30px;
-            height: 700px;
-            
-        }
-    }
-    
-@mixin cantantes{
-    background-repeat: no-repeat;
-        background-size: 200px 150px;
-        background-position: 5px 40px;
-        width: 40%;
-        margin-left: 70PX;
-        border-style: double;
-        transition-duration: 3s;
-        &:hover{
-            transform: rotate(15deg) scale(1.2);
-            
-            }
 }
 
+@mixin cantantes {
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 5px 40px;
+    width: 40%;
+    margin-left: 70PX;
+    border-style: double;
+    transition-duration: 3s;
+
+    &:hover {
+        transform: rotate(15deg) scale(1.2);
+
+    }
+}
+
+.eladio {
+    background-color: yellow;
+    background-image: url(../img/eladio.jpg);
+    @include cantantes;
+}
+
+.lana {
+    background-color: green;
+    background-image: url(../img/lana.jpg);
+    @include cantantes;
+}
+
+.rauw {
+    background-color: rgb(114, 36, 36);
+    background-image: url(../img/rauw.jpg);
+    @include cantantes;
+}
+
+@media(min-width:1200px) {
     .eladio {
+        @include cantantes;
         background-color: yellow;
         background-image: url(../img/eladio.jpg);
-        @include cantantes ;
+
+        width: 50%;
+
+
     }
 
     .lana {
+        @include cantantes;
         background-color: green;
         background-image: url(../img/lana.jpg);
-        @include cantantes ;
+
+        width: 55%;
+
     }
-    
+
     .rauw {
+        @include cantantes;
         background-color: rgb(114, 36, 36);
         background-image: url(../img/rauw.jpg);
-        @include cantantes ;
+
+        width: 50%;
+
+    }
+}
+
+@media(max-width:420px) {
+    .eladio {
+        @include cantantes;
+        background-color: yellow;
+        background-image: url(../img/eladio.jpg);
+        width: 55%;
     }
 
-    @media(min-width:1200px){
-        .eladio {
-            @include cantantes ;
-            background-color: yellow;
-            background-image: url(../img/eladio.jpg);
-         
-            width: 50%;
+    .lana {
+        @include cantantes;
+        background-color: green;
+        background-image: url(../img/lana.jpg);
+        width: 55%;
+    }
 
-        
+    .rauw {
+        @include cantantes;
+        background-color: rgb(114, 36, 36);
+        background-image: url(../img/rauw.jpg);
+        width: 55%;
+    }
+}
+
+.regge {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: repeat(2, 300px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 20px;
+}
+
+@media(max-width:420px) {
+    .regge {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 200px);
+    }
+}
+
+@media(min-width:1200px) {
+    .regge {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: repeat(2, 300px);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        gap: 20px;
+    }
+}
+
+@mixin regge {
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: 75px 70px;
+    width: 60%;
+    margin-left: 70PX;
+    border-style: double;
+    transition-duration: 3s;
+
+    &:hover {
+        transform: rotate(15deg) scale(1.2);
+
+    }
+}
+
+.anuel {
+    @include regge;
+    background-image: url(../img/anuel.jpg);
+    background-color: rgb(177, 67, 67);
+}
+
+.feid {
+    @include regge;
+    background-image: url(../img/feid.jpg);
+    background-color: beige;
+}
+
+.myke {
+    @include regge;
+    background-image: url(../img/myke.jpg);
+    background-color: rgb(177, 67, 67);
+}
+
+.jhay {
+    @include regge;
+    background-image: url(../img/jhay.jpg);
+    background-color: beige;
+}
+
+.balvin {
+    @include regge;
+    background-image: url(../img/balvin.jpg);
+    background-color: beige;
+}
+
+.ozuna {
+    @include regge;
+    background-image: url(../img/ozuna.jpg);
+    background-color: rgb(177, 67, 67);
+}
+
+@media(max-width:420px) {
+    @mixin regge {
+        background-repeat: no-repeat;
+        background-size: 100px 150px;
+        background-position: 25px 30px;
+        width: 80%;
+        margin-left: 20PX;
+        border-style: double;
+        transition-duration: 3s;
+        height: 200px;
+
+        &:hover {
+            transform: rotate(15deg) scale(1.2);
+
         }
+    }
+
+    .anuel {
+        @include regge;
+        background-image: url(../img/anuel.jpg);
+        background-color: rgb(177, 67, 67);
+    }
+
+    .feid {
+        @include regge;
+        background-image: url(../img/feid.jpg);
+        background-color: beige;
+    }
+
+    .myke {
+        @include regge;
+        background-image: url(../img/myke.jpg);
+        background-color: rgb(177, 67, 67);
+    }
+
+    .jhay {
+        @include regge;
+        background-image: url(../img/jhay.jpg);
+        background-color: beige;
+    }
+
+    .balvin {
+        @include regge;
+        background-image: url(../img/balvin.jpg);
+        background-color: beige;
+
+    }
+
+    .ozuna {
+        @include regge;
+        background-image: url(../img/ozuna.jpg);
+        background-color: rgb(177, 67, 67);
+
+    }
+
+
+
+}
+
+@media(min-width:1200px){
+    @mixin regge {
+        background-repeat: no-repeat;
+        background-size: 200px 150px;
+        background-position: 25px 70px;
+        width: 60%;
+        margin-left: 70PX;
+        border-style: double;
+        transition-duration: 3s;
     
-        .lana {
-            @include cantantes ;
-            background-color: green;
-            background-image: url(../img/lana.jpg);
-          
-            width: 55%;
-          
-        }
-        
-        .rauw {
-            @include cantantes ;
-            background-color: rgb(114, 36, 36);
-            background-image: url(../img/rauw.jpg);
+        &:hover {
+            transform: rotate(15deg) scale(1.2);
     
-            width: 50%;
-           
         }
     }
     
-    @media(max-width:420px){
-        .eladio {
-            @include cantantes ;
-            background-color: yellow;
-            background-image: url(../img/eladio.jpg);
-            width: 55%;
-        }
-    
-        .lana {
-            @include cantantes ;
-            background-color: green;
-            background-image: url(../img/lana.jpg);
-            width: 55%;
-        }
-        
-        .rauw {
-            @include cantantes ;
-            background-color: rgb(114, 36, 36);
-            background-image: url(../img/rauw.jpg);
- width: 55%;
-        }
+    .anuel {
+        @include regge;
+        background-image: url(../img/anuel.jpg);
+        background-color: rgb(177, 67, 67);
     }
+    
+    .feid {
+        @include regge;
+        background-image: url(../img/feid.jpg);
+        background-color: beige;
+    }
+    
+    .myke {
+        @include regge;
+        background-image: url(../img/myke.jpg);
+        background-color: rgb(177, 67, 67);
+    }
+    
+    .jhay {
+        @include regge;
+        background-image: url(../img/jhay.jpg);
+        background-color: beige;
+    }
+    
+    .balvin {
+        @include regge;
+        background-image: url(../img/balvin.jpg);
+        background-color: beige;
+    }
+    
+    .ozuna {
+        @include regge;
+        background-image: url(../img/ozuna.jpg);
+        background-color: rgb(177, 67, 67);
+    }
+}
