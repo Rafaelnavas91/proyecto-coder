@@ -590,7 +590,7 @@ a {
 }
 .encabezado {
   background-color: lightblue;
-  color: rgb(194, 127, 160);
+  color: black;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -599,7 +599,7 @@ a {
 .mas {
   font-size: 29px;
   background-color: lightblue;
-  color: rgb(194, 127, 160);
+  color: black;
   border-style: solid;
 }
 
@@ -633,8 +633,8 @@ a {
     margin-left: 10px;
     width: 95%;
     margin-right: 5px;
-    background: rgb(177, 194, 218);
-    background: linear-gradient(90deg, rgb(177, 194, 218) 26%, rgb(38, 50, 201) 75%);
+    background: rgb(160, 229, 246);
+    background: linear-gradient(90deg, rgb(160, 229, 246) 23%, rgb(245, 242, 204) 75%);
   }
 }
 @media (min-width: 1200px) {
@@ -645,8 +645,8 @@ a {
     height: 700px;
     column-gap: 40px;
     row-gap: 20px;
-    background: rgb(177, 194, 218);
-    background: linear-gradient(90deg, rgb(177, 194, 218) 26%, rgb(38, 50, 201) 75%);
+    background: rgb(160, 229, 246);
+    background: linear-gradient(90deg, rgb(160, 229, 246) 23%, rgb(245, 242, 204) 75%);
     margin-right: 20px;
     margin-left: 20px;
   }
