@@ -932,7 +932,7 @@ a {
   border-style: solid;
 }
 
-@media (max-width: 420px) {
+@media (min-width: 420px) {
   .carousel-item {
     width: 85%;
     margin-right: 30px;
@@ -968,7 +968,7 @@ a {
   border-radius: 10px;
 }
 
-@media (max-width: 420px) {
+@media (min-width: 420px) {
   .link {
     color: red;
     font-size: 12px;
@@ -1041,7 +1041,7 @@ a {
   margin-right: 20px;
 }
 
-@media (max-width: 420px) {
+@media (min-width: 420px) {
   .historia {
     background-color: lightblue;
     color: black;
@@ -1093,7 +1093,7 @@ a {
   color: bisque;
 }
 
-@media (max-width: 420px) {
+@media (min-width: 420px) {
   .Musica {
     background-color: lightblue;
     display: flex;
@@ -1103,7 +1103,6 @@ a {
   .Musica__conciertos {
     background-color: lightblue;
     font-weight: 700;
-    float: left;
     width: 200px;
     height: 100px;
     margin-top: 20px;
@@ -1111,6 +1110,8 @@ a {
     align-items: center;
     margin-left: 5px;
     font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .Musica__conciertos ul,
   .Musica li {
@@ -1165,18 +1166,20 @@ a {
   color: bisque;
 }
 
-@media (max-width: 420px) {
+@media (min-width: 420px) {
   .album {
-    float: right;
     width: 200px;
     height: 100px;
     margin-top: 20px;
+    margin-right: 20px;
     border-style: solid;
     align-items: center;
     margin-right: 5px;
     background-color: lightblue;
     font-weight: 700;
     font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .album ul, .album li {
     display: flex;
@@ -1210,36 +1213,32 @@ a {
   overflow: auto;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   border-style: solid;
-  box-shadow: -19px 13px 5px -2px rgba(145, 218, 247, 0.98);
-  -webkit-box-shadow: -19px 13px 5px -2px rgba(145, 218, 247, 0.98);
-  -moz-box-shadow: -19px 13px 5px -2px rgba(145, 218, 247, 0.98);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-@media (max-width: 420px) {
+@media (min-width: 420px) {
   #textomusica {
     background-color: lightblue;
-    font-size: 10px;
-    width: 370px;
-    height: 800px;
+    background-color: lightblue;
+    font-size: 12px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     border-style: solid;
-    border-width: 20px;
-    border-color: bisque;
     font-size: 22px;
-    margin-top: 180px;
+    margin-top: 140px;
     margin-bottom: 40px;
-    margin-left: 25px;
-    box-shadow: -16px 15px 5px 2px rgba(207, 181, 181, 0.75);
-    -webkit-box-shadow: -16px 15px 5px 2px rgba(207, 181, 181, 0.75);
-    -moz-box-shadow: -16px 15px 5px 2px rgba(207, 181, 181, 0.75);
+    margin-right: 50px;
+    margin-left: 50px;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    box-shadow: -16px 15px 5px 2px rgba(207, 181, 181, 0.75);
+    -webkit-box-shadow: -16px 15px 5px 2px rgba(207, 181, 181, 0.75);
+    -moz-box-shadow: -16px 15px 5px 2px rgba(207, 181, 181, 0.75);
   }
 }
 @media (min-width: 1200px) {
@@ -1328,7 +1327,7 @@ a {
 }
 
 .texto__rihanna {
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Times New Roman", Times, serif;
   justify-content: center;
   border-style: solid;
@@ -1338,7 +1337,7 @@ a {
 }
 
 .texto__taylor {
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Times New Roman", Times, serif;
   justify-content: center;
   border-style: solid;
@@ -1348,7 +1347,7 @@ a {
 }
 
 .texto__bad {
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Times New Roman", Times, serif;
   justify-content: center;
   border-style: solid;
@@ -1358,7 +1357,7 @@ a {
 }
 
 .texto__abel {
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Times New Roman", Times, serif;
   justify-content: center;
   border-style: solid;
@@ -1369,7 +1368,7 @@ a {
 }
 
 .texto__yankee {
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Times New Roman", Times, serif;
   justify-content: center;
   border-style: solid;
@@ -1378,7 +1377,7 @@ a {
   overflow: auto;
 }
 
-@media (max-width: 420px) {
+@media (min-width: 420px) {
   .descripcion {
     display: grid;
     grid-template-columns: 1fr;
@@ -1418,9 +1417,9 @@ a {
     border-style: solid;
   }
 }
-@media (max-width: 420px) {
+@media (min-width: 420px) {
   .texto__rihanna {
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     justify-content: center;
     border-style: solid;
@@ -1429,7 +1428,7 @@ a {
     overflow: auto;
   }
   .texto__taylor {
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     justify-content: center;
     border-style: solid;
@@ -1438,7 +1437,7 @@ a {
     overflow: auto;
   }
   .texto__bad {
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     justify-content: center;
     border-style: solid;
@@ -1447,7 +1446,7 @@ a {
     overflow: auto;
   }
   .texto__abel {
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     justify-content: center;
     border-style: solid;
@@ -1457,7 +1456,7 @@ a {
     font-size: 12px;
   }
   .texto__yankee {
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     justify-content: center;
     border-style: solid;
@@ -1466,9 +1465,9 @@ a {
     overflow: auto;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .texto__rihanna {
-    font-size: 10px;
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     justify-content: center;
     border-style: solid;
@@ -1478,7 +1477,7 @@ a {
     width: fit-content;
   }
   .texto__taylor {
-    font-size: 10px;
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     justify-content: center;
     border-style: solid;
@@ -1488,7 +1487,7 @@ a {
     width: fit-content;
   }
   .texto__bad {
-    font-size: 10px;
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     justify-content: center;
     border-style: solid;
@@ -1498,7 +1497,7 @@ a {
     width: fit-content;
   }
   .texto__abel {
-    font-size: 10px;
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     justify-content: center;
     border-style: solid;
@@ -1509,7 +1508,7 @@ a {
     font-size: 13px;
   }
   .texto__yankee {
-    font-size: 10px;
+    font-size: 16px;
     font-family: "Times New Roman", Times, serif;
     justify-content: center;
     border-style: solid;
@@ -1523,7 +1522,7 @@ a {
   .descripcion {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: repeat(2, 250px);
+    grid-template-rows: repeat(2, 450px);
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 25px;
