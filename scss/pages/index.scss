@@ -567,6 +567,58 @@ align-items: center;
 
   }
 
+
+  @media(min-width:768px){
+    .descripcion {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      grid-template-rows: repeat(2, 250px);
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      gap: 20px;
+      color: black;
+  
+      &__abel {
+        background: rgb(43, 158, 185);
+        background: linear-gradient(90deg, rgba(43, 158, 185, 1) 27%, rgba(121, 142, 145, 1) 88%);
+        grid-row: span 2;
+        border-style: solid;
+  
+      }
+  
+      &__rihanna {
+        background: rgb(232, 99, 106);
+        background: linear-gradient(90deg, rgba(232, 99, 106, 1) 27%, rgba(118, 179, 109, 1) 75%);
+        border-style: solid;
+      }
+  
+      &__taylor {
+        background: rgb(232, 99, 106);
+        background: linear-gradient(90deg, rgba(232, 99, 106, 1) 27%, rgba(118, 179, 109, 1) 75%);
+        border-style: solid;
+      }
+  
+      &__bad {
+        background: rgb(232, 99, 106);
+        background: linear-gradient(90deg, rgba(232, 99, 106, 1) 27%, rgba(118, 179, 109, 1) 75%);
+        border-style: solid;
+  
+      }
+  
+      &__yankee {
+        background: rgb(232, 99, 106);
+        background: linear-gradient(90deg, rgba(232, 99, 106, 1) 27%, rgba(118, 179, 109, 1) 75%);
+        border-style: solid;
+      }
+      
+      }
+  
+  
+  }
+
   @media(min-width:420px){
     @mixin texto {
       font-size: 16px;
@@ -602,6 +654,44 @@ align-items: center;
     }
   }
 
+@media(min-width:768px){
+  @mixin texto {
+ 
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    border-style: solid;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: auto;
+font-size: 14px;
+  }
+  
+  .texto__rihanna {
+    @include texto;
+
+  }
+  
+  
+  .texto__taylor {
+    @include texto;
+
+  }
+  
+  .texto__bad {
+    @include texto;
+
+  }
+  
+  .texto__abel {
+    @include texto;
+font-size: 11px;
+  }
+  
+  .texto__yankee {
+    @include texto;
+
+  }
+}
 
 
   @media(min-width:1200px) {
@@ -632,7 +722,7 @@ align-items: center;
     
     .texto__abel {
       @include texto;
-      font-size: 13px;
+      font-size: 18px;
     }
     
     .texto__yankee {

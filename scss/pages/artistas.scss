@@ -13,7 +13,7 @@ $color: rgb(194, 127, 160);
 
 }
 
-@media(max-width: 420px) {
+@media(min-width: 420px) {
     .variedad {
         display: flex;
         flex-direction: row;
@@ -33,7 +33,7 @@ $color: rgb(194, 127, 160);
     gap: 20px;
 }
 
-@media(max-width:420px) {
+@media(min-width:420px) {
     .search {
         font-size: 10px;
         display: flex;
@@ -58,11 +58,14 @@ $color: rgb(194, 127, 160);
 
 
 
-@media(max-width:420px) {
+@media(min-width:420px) {
     .moment {
         font-size: 16px;
         background-color: $color-de-fondo;
         color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
 
@@ -76,7 +79,7 @@ $color: rgb(194, 127, 160);
     column-gap: 30px;
 }
 
-@media(max-width: 420px) {
+@media(min-width: 420px) {
     .artistas {
         display: grid;
         grid-template-rows: 200px;
@@ -93,7 +96,7 @@ $color: rgb(194, 127, 160);
 @mixin cantantes {
     background-repeat: no-repeat;
     background-size: 200px 150px;
-    background-position: 5px 40px;
+    background-position: 45px 40px;
     width: 40%;
     margin-left: 70PX;
     border-style: double;
@@ -109,6 +112,7 @@ $color: rgb(194, 127, 160);
     background-color: yellow;
     background-image: url(../img/eladio.jpg);
     @include cantantes;
+
 }
 
 .lana {
@@ -153,26 +157,53 @@ $color: rgb(194, 127, 160);
     }
 }
 
-@media(max-width:420px) {
+@media(min-width:420px) {
     .eladio {
         @include cantantes;
         background-color: yellow;
         background-image: url(../img/eladio.jpg);
-        width: 55%;
+        width: 75%;
     }
 
     .lana {
         @include cantantes;
         background-color: green;
         background-image: url(../img/lana.jpg);
-        width: 55%;
+        width: 75%;
     }
 
     .rauw {
         @include cantantes;
         background-color: rgb(114, 36, 36);
         background-image: url(../img/rauw.jpg);
-        width: 55%;
+        width: 75%;
+    }
+}
+
+
+@media(min-width:768px){
+    .eladio {
+        @include cantantes;
+        background-color: yellow;
+        background-image: url(../img/eladio.jpg);
+        width: 75%;
+        background-position: 180px 40px;
+    }
+
+    .lana {
+        @include cantantes;
+        background-color: green;
+        background-image: url(../img/lana.jpg);
+        width: 75%;
+        background-position: 180px 40px;
+    }
+
+    .rauw {
+        @include cantantes;
+        background-color: rgb(114, 36, 36);
+        background-image: url(../img/rauw.jpg);
+        width: 75%;
+        background-position: 180px 40px;
     }
 }
 
@@ -188,7 +219,7 @@ $color: rgb(194, 127, 160);
     gap: 20px;
 }
 
-@media(max-width:420px) {
+@media(min-width:420px) {
     .regge {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -261,7 +292,7 @@ $color: rgb(194, 127, 160);
     background-color: rgb(177, 67, 67);
 }
 
-@media(max-width:420px) {
+@media(min-width:420px) {
     @mixin regge {
         background-repeat: no-repeat;
         background-size: 100px 150px;
