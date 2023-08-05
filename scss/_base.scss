@@ -9,8 +9,32 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 color: $color;
+font-size: 65PX;
 }
+@media(min-width:350px){
+    h1 {
 
+        background-color: $color-de-fondo;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $color;
+    font-size: 35PX;
+    }
+}
+@media(min-width:768px){
+    h1 {
+
+        background-color: $color-de-fondo;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $color;
+    font-size: 65PX;
+    }
+}
 h2 {
 
     background-color:$color-de-fondo;
@@ -56,7 +80,7 @@ header {
     font-size: 35px;
  
 }
-@media (max-width:420px) {
+@media (min-width:350px) {
     header {
         background-color: lightblue;
         display: flex;

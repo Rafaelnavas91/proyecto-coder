@@ -2,13 +2,7 @@ $color-de-fondo: lightblue;
 
 $color:black;
 
-.encabezado {
-    background-color: $color-de-fondo;
-    color: $color;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+
 
 .mas {
     font-size: 29px;
@@ -17,12 +11,16 @@ $color:black;
     border-style: solid;
 }
 
-@media(min-width:420px) {
+@media(min-width:350px) {
     .mas {
         font-size: 15px;
         background-color: $color-de-fondo;
         color: black;
     }
+}
+
+.search{
+    font-size: 12px;
 }
 
 .escuchadas {
@@ -37,7 +35,7 @@ $color:black;
     border-style: solid;
 }
 
-@media(min-width: 420px) {
+@media(min-width: 350px) {
     .escuchadas {
         display: grid;
         grid-template-rows: 200px;
@@ -125,7 +123,7 @@ background: linear-gradient(90deg, rgba(160,229,246,1) 23%, rgba(245,242,204,1) 
 
 }
 
-@media(min-width:420px) {
+@media(min-width:350px) {
     @mixin canciones {
         background-color: gray;
         background-repeat: no-repeat;

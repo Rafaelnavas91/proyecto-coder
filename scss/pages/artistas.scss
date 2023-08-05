@@ -13,13 +13,13 @@ $color: rgb(194, 127, 160);
 
 }
 
-@media(min-width: 420px) {
+@media(min-width: 350px) {
     .variedad {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        font-size: 16px;
+        font-size: 36px;
     }
 }
 
@@ -33,7 +33,7 @@ $color: rgb(194, 127, 160);
     gap: 20px;
 }
 
-@media(min-width:420px) {
+@media(min-width:350px) {
     .search {
         font-size: 10px;
         display: flex;
@@ -58,7 +58,7 @@ $color: rgb(194, 127, 160);
 
 
 
-@media(min-width:420px) {
+@media(min-width:350px) {
     .moment {
         font-size: 16px;
         background-color: $color-de-fondo;
@@ -71,15 +71,15 @@ $color: rgb(194, 127, 160);
 
 .artistas {
     display: grid;
-    grid-template-rows: 200px;
+    grid-template-rows: 100px;
     grid-template-columns: 1fr 1fr 1fr;
 
-    row-gap: 30px;
+    row-gap: 10px;
     justify-content: space-between;
-    column-gap: 30px;
+    column-gap: 10px;
 }
 
-@media(min-width: 420px) {
+@media(min-width: 350px) {
     .artistas {
         display: grid;
         grid-template-rows: 200px;
@@ -89,6 +89,20 @@ $color: rgb(194, 127, 160);
         justify-content: space-between;
         column-gap: 30px;
         height: 700px;
+
+    }
+}
+
+@media(min-width:1000px){
+    .artistas {
+        display: grid;
+     
+        grid-template-columns: 1fr 1fr 1fr;
+
+        row-gap: 20px;
+        justify-content: space-between;
+        column-gap: 30px;
+  height: 200px;
 
     }
 }
@@ -127,7 +141,7 @@ $color: rgb(194, 127, 160);
     @include cantantes;
 }
 
-@media(min-width:1200px) {
+@media(min-width:1000px) {
     .eladio {
         @include cantantes;
         background-color: yellow;
@@ -157,12 +171,13 @@ $color: rgb(194, 127, 160);
     }
 }
 
-@media(min-width:420px) {
+@media(min-width:350px) {
     .eladio {
         @include cantantes;
         background-color: yellow;
         background-image: url(../img/eladio.jpg);
         width: 75%;
+      
     }
 
     .lana {
@@ -187,7 +202,7 @@ $color: rgb(194, 127, 160);
         background-color: yellow;
         background-image: url(../img/eladio.jpg);
         width: 75%;
-        background-position: 180px 40px;
+        background-position: 20px 40px;
     }
 
     .lana {
@@ -195,7 +210,7 @@ $color: rgb(194, 127, 160);
         background-color: green;
         background-image: url(../img/lana.jpg);
         width: 75%;
-        background-position: 180px 40px;
+        background-position: 20px 40px;
     }
 
     .rauw {
@@ -203,7 +218,7 @@ $color: rgb(194, 127, 160);
         background-color: rgb(114, 36, 36);
         background-image: url(../img/rauw.jpg);
         width: 75%;
-        background-position: 180px 40px;
+        background-position: 20px 40px;
     }
 }
 
@@ -219,15 +234,15 @@ $color: rgb(194, 127, 160);
     gap: 20px;
 }
 
-@media(min-width:420px) {
+@media(min-width:350px) {
     .regge {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(2, 200px);
+        grid-template-rows:  200px;
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1000px) {
     .regge {
         display: grid;
         grid-template-columns: 2fr 2fr 2fr;
@@ -292,7 +307,7 @@ $color: rgb(194, 127, 160);
     background-color: rgb(177, 67, 67);
 }
 
-@media(min-width:420px) {
+@media(min-width:350px) {
     @mixin regge {
         background-repeat: no-repeat;
         background-size: 100px 150px;
@@ -351,11 +366,11 @@ $color: rgb(194, 127, 160);
 
 }
 
-@media(min-width:1200px){
+@media(min-width:1000px){
     @mixin regge {
         background-repeat: no-repeat;
-        background-size: 200px 150px;
-        background-position: 25px 70px;
+        background-size: 130px 150px;
+        background-position: 25px 20px;
         width: 60%;
         margin-left: 70PX;
         border-style: double;
